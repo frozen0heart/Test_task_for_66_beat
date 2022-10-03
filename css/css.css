@@ -1,0 +1,92 @@
+.container {
+	margin-top: 25px;
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000;
+    font-size: 25px; 
+    color: #00BFFF; 
+    margin-top:10px; 
+    margin-bottom:10px
+}
+.catalog {
+    position: absolute;
+    right: 0;
+    top: 2%;
+    width: 100px;
+}
+.add {
+    position: absolute;
+    right: 0;
+    top: 2%;
+    width: 200px;
+}
+.red {
+    border:  none;
+    text-align: left;
+    display:inline-block;
+    height: 28px;
+    vertical-align: middle;
+    position: absolute;
+    left: -40px;
+    top: +6px;
+    background: white;
+}
+.redicon {
+    width: 25px; 
+    height: 25px; 
+    background: white;
+}
+.popup__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: default;
+}
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#okno {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+#zatemnenie:target {display: block;}
+table {
+    border: 1px solid grey;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+th {
+    border: 1px solid grey;
+}
+td {
+    border: 1px solid grey;
+}
+.list-group-item:hover {
+    cursor: pointer;
+}
